@@ -3,9 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ## [0.0.1] - 2016/06/12
 ### Added
-* Added all the files
+- Added all the files
+
 ### Update
-* Update .gitignore file
+- Update .gitignore file
 
 ## [0.0.0] - 2016/06/12
 ### Added
