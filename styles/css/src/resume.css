@@ -1,0 +1,84 @@
+@import url(../../../../res/lib/fonts/data-control/stylesheet.css);
+@import url(../../../../res/lib/fonts/jura-gen/stylesheet.css);
+@font-face {
+  font-family: OCRExtended;
+  src: url("../../fonts/ocraextended.ttf"); }
+
+@font-face {
+  font-family: JuraDB;
+  src: url("../../fonts/Jura-DemiBold.ttf"); }
+
+@font-face {
+  font-family: JuraL;
+  src: url("../../fonts/Jura-Light.ttf"); }
+
+.col-sm-4 .cirriculum_vitae p.add-info a, .col-sm-4 .portfolio p.add-info a, .col-sm-4 .contacts p.add-info a {
+  margin: 0px;
+  padding: 0px; }
+  .col-sm-4 .cirriculum_vitae p.add-info a:link, .col-sm-4 .portfolio p.add-info a:link, .col-sm-4 .contacts p.add-info a:link {
+    color: #69A2d2;
+    text-decoration: none; }
+  .col-sm-4 .cirriculum_vitae p.add-info a:visited, .col-sm-4 .portfolio p.add-info a:visited, .col-sm-4 .contacts p.add-info a:visited {
+    color: #69A2d2;
+    text-decoration: none; }
+  .col-sm-4 .cirriculum_vitae p.add-info a:hover, .col-sm-4 .portfolio p.add-info a:hover, .col-sm-4 .contacts p.add-info a:hover {
+    color: #D63700;
+    text-decoration: none; }
+  .col-sm-4 .cirriculum_vitae p.add-info a:active, .col-sm-4 .portfolio p.add-info a:active, .col-sm-4 .contacts p.add-info a:active {
+    color: #D63700;
+    text-decoration: none; }
+
+.col-sm-4 .cirriculum_vitae p.add-info, .col-sm-4 .portfolio p.add-info, .col-sm-4 .contacts p.add-info, p.headline {
+  font-family: data_controllatin;
+  font-size: 17px;
+  font-weight: 700;
+  color: #69A2d2;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+.resume p.content {
+  font-family: juralight;
+  font-size: 15px;
+  font-weight: normal;
+  color: #C8D6E1; }
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+  background: #2B2D39 !important; }
+
+p {
+  margin: 0px;
+  padding: 0px; }
+
+.col-sm-9 {
+  top: 220px;
+  padding: 0px;
+  margin-top: 10px; }
+
+.resume {
+  margin-bottom: 20px; }
+
+.col-sm-3 {
+  top: 220px;
+  margin-top: 10px; }
+  .col-sm-3 .rss_sidebar {
+    text-align: center;
+    color: #C8D6E1; }
+
+.col-sm-4 {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+  text-align: center; }
+
+p.headline {
+  margin: 10px 0px 20px 0px;
+  text-align: center; }
+
+div.row.contentWindow {
+  max-width: 940px;
+  height: 900px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px;
+  z-index: 1; }

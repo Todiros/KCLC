@@ -1,0 +1,99 @@
+@import url(../../../../res/lib/fonts/data-control/stylesheet.css);
+@import url(../../../../res/lib/fonts/jura-gen/stylesheet.css);
+@font-face {
+  font-family: OCRExtended;
+  src: url("../../fonts/ocraextended.ttf"); }
+
+@font-face {
+  font-family: JuraDB;
+  src: url("../../fonts/Jura-DemiBold.ttf"); }
+
+@font-face {
+  font-family: JuraL;
+  src: url("../../fonts/Jura-Light.ttf"); }
+
+.col-md-6 .most_liked p.topic1 a, .col-md-6 .most_commented p.topic1 a, .col-md-6 .most_liked p.topic2 a, .col-md-6 .most_commented p.topic2 a, .col-md-6 .most_liked p.topic3 a, .col-md-6 .most_commented p.topic3 a, .recent_post p.title a {
+  margin: 0px;
+  padding: 0px; }
+  .col-md-6 .most_liked p.topic1 a:link, .col-md-6 .most_commented p.topic1 a:link, .col-md-6 .most_liked p.topic2 a:link, .col-md-6 .most_commented p.topic2 a:link, .col-md-6 .most_liked p.topic3 a:link, .col-md-6 .most_commented p.topic3 a:link, .recent_post p.title a:link {
+    color: #C8D6E1;
+    text-decoration: none; }
+  .col-md-6 .most_liked p.topic1 a:visited, .col-md-6 .most_commented p.topic1 a:visited, .col-md-6 .most_liked p.topic2 a:visited, .col-md-6 .most_commented p.topic2 a:visited, .col-md-6 .most_liked p.topic3 a:visited, .col-md-6 .most_commented p.topic3 a:visited, .recent_post p.title a:visited {
+    color: #C8D6E1;
+    text-decoration: none; }
+  .col-md-6 .most_liked p.topic1 a:hover, .col-md-6 .most_commented p.topic1 a:hover, .col-md-6 .most_liked p.topic2 a:hover, .col-md-6 .most_commented p.topic2 a:hover, .col-md-6 .most_liked p.topic3 a:hover, .col-md-6 .most_commented p.topic3 a:hover, .recent_post p.title a:hover {
+    color: #D63700;
+    text-decoration: none; }
+  .col-md-6 .most_liked p.topic1 a:active, .col-md-6 .most_commented p.topic1 a:active, .col-md-6 .most_liked p.topic2 a:active, .col-md-6 .most_commented p.topic2 a:active, .col-md-6 .most_liked p.topic3 a:active, .col-md-6 .most_commented p.topic3 a:active, .recent_post p.title a:active {
+    color: #D63700;
+    text-decoration: none; }
+
+p.headline {
+  font-family: data_controllatin;
+  font-size: 17px;
+  font-weight: 700;
+  color: #69A2d2;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+.col-md-6 .most_liked p.topic1, .col-md-6 .most_commented p.topic1, .col-md-6 .most_liked p.topic2, .col-md-6 .most_commented p.topic2, .col-md-6 .most_liked p.topic3, .col-md-6 .most_commented p.topic3, .recent_post p.title {
+  font-family: jurademibold;
+  font-size: 15px;
+  font-weight: 500;
+  color: #C8D6E1; }
+
+.recent_post p.post_content {
+  font-family: juralight;
+  font-size: 15px;
+  font-weight: normal;
+  color: #C8D6E1; }
+
+.recent_post p.date {
+  font-family: juralight;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  color: #C8D6E1; }
+
+.col-md-6 .most_liked, .col-md-6 .most_commented {
+  text-align: center; }
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+  background: #2B2D39 !important; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+.col-sm-9 {
+  top: 220px;
+  margin-top: 10px; }
+
+.recent_post {
+  margin-bottom: 20px; }
+  .recent_post p.post_content {
+    margin: 10px 0px; }
+
+.col-sm-3 {
+  top: 220px;
+  margin-top: 10px; }
+  .col-sm-3 .rss_sidebar {
+    text-align: center;
+    color: #C8D6E1; }
+
+.col-md-6 {
+  margin: 10px 0; }
+
+p.headline {
+  margin: 10px 0px 20px 0px;
+  text-align: center; }
+
+.row.contentWindow {
+  max-width: 940px;
+  height: 900px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px;
+  z-index: 1; }

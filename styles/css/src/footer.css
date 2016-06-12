@@ -1,0 +1,82 @@
+@import url(../../../../res/lib/fonts/data-control/stylesheet.css);
+@import url(../../../../res/lib/fonts/jura-gen/stylesheet.css);
+@font-face {
+  font-family: OCRExtended;
+  src: url("../../fonts/ocraextended.ttf"); }
+
+@font-face {
+  font-family: JuraDB;
+  src: url("../../fonts/Jura-DemiBold.ttf"); }
+
+@font-face {
+  font-family: JuraL;
+  src: url("../../fonts/Jura-Light.ttf"); }
+
+p.credits a {
+  margin: 0 6; }
+  p.credits a:link {
+    color: #A1BED6;
+    text-decoration: none; }
+  p.credits a:visited {
+    color: #A1BED6;
+    text-decoration: none; }
+  p.credits a:hover {
+    color: #D63700;
+    text-decoration: none; }
+  p.credits a:active {
+    color: #D63700;
+    text-decoration: none; }
+
+p.copyrights, p.credits {
+  font-family: data_controllatin;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important; }
+
+div.row {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  z-index: 2; }
+
+footer {
+  max-width: 960px;
+  height: 50px;
+  background: url("../../../../res/img/header-full.svg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  z-index: 3; }
+  footer div.overlay {
+    max-width: 960px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px -5px 5px #000000; }
+  footer div.nav-overlay {
+    width: 100%;
+    height: 30px;
+    background: rgba(2, 10, 29, 0.65);
+    -webkit-transform: translateY(35%);
+        -ms-transform: translateY(35%);
+            transform: translateY(35%);
+    padding: 6px 0 0 0; }
+
+p.copyrights {
+  float: left;
+  margin: 0 0 0 5px;
+  white-space: nowrap;
+  color: #A1BED6; }
+
+p.credits {
+  float: right;
+  margin: 0 5px 0 0;
+  white-space: nowrap;
+  color: #A1BED6; }

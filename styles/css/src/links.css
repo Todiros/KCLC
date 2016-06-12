@@ -1,0 +1,69 @@
+@import url(../../../../res/lib/fonts/data-control/stylesheet.css);
+@import url(../../../../res/lib/fonts/jura-gen/stylesheet.css);
+@font-face {
+  font-family: JuraDB;
+  src: url("../../fonts/Jura-DemiBold.ttf"); }
+
+@font-face {
+  font-family: JuraL;
+  src: url("../../fonts/Jura-Light.ttf"); }
+
+p.headline {
+  font-family: data_controllatin;
+  font-size: 17px;
+  font-weight: 700;
+  color: #69A2d2;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+.useful_links p.links {
+  font-family: juralight;
+  font-size: 15px;
+  font-weight: normal;
+  color: #C8D6E1; }
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+  background: #2B2D39 !important; }
+
+p {
+  margin: 0px;
+  padding: 0px; }
+
+.col-sm-9 {
+  top: 220px;
+  padding: 0px;
+  margin-top: 10px; }
+
+.useful_links {
+  margin-bottom: 20px; }
+  .useful_links p.links {
+    text-align: center; }
+
+.col-sm-3 {
+  top: 220px;
+  margin-top: 10px; }
+  .col-sm-3 .rss_sidebar {
+    text-align: center;
+    color: #C8D6E1; }
+
+.links {
+  color: white; }
+
+.col-sm-6 {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+  text-align: center; }
+
+p.headline {
+  margin: 10px 0px 20px 0px;
+  text-align: center; }
+
+.row.contentWindow {
+  max-width: 940px;
+  height: 900px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px;
+  z-index: 1; }

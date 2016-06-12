@@ -1,0 +1,38 @@
+@import url(../../../res/lib/fonts/data-control/stylesheet.css);
+@import url(../../../res/lib/fonts/jura-gen/stylesheet.css);
+@font-face {
+  font-family: OCRExtended;
+  src: url("../fonts/ocraextended.ttf"); }
+
+@font-face {
+  font-family: JuraDB;
+  src: url("../fonts/Jura-DemiBold.ttf"); }
+
+@font-face {
+  font-family: JuraL;
+  src: url("../fonts/Jura-Light.ttf"); }
+
+/* line 3, C:/xampp/htdocs/code/styles/404.sass */
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+  background: #2B2D39 !important; }
+
+/* line 8, C:/xampp/htdocs/code/styles/404.sass */
+.break {
+  clear: both; }
+
+/* line 11, C:/xampp/htdocs/code/styles/404.sass */
+.row.contentWindow {
+  max-width: 940px;
+  height: 900px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+/* line 18, C:/xampp/htdocs/code/styles/404.sass */
+#comingsoonimg {
+  position: relative;
+  top: 425px;
+  text-align: center;
+  z-index: 1; }
