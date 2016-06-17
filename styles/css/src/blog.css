@@ -1,0 +1,55 @@
+@import url(../../../../res/lib/fonts/data-control/stylesheet.css);
+@import url(../../../../res/lib/fonts/jura-gen/stylesheet.css);
+@font-face {
+  font-family: JuraDB;
+  src: url("../../fonts/Jura-DemiBold.ttf"); }
+
+@font-face {
+  font-family: JuraL;
+  src: url("../../fonts/Jura-Light.ttf"); }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background: #2B2D39; }
+
+.col-xs-1 {
+  border: 1px solid red; }
+
+.col-xs-10 {
+  border: 1px solid yellow; }
+
+.col-sm-4 {
+  border: 1px solid green; }
+
+#menuWrapper {
+  max-width: 980px;
+  position: relative;
+  margin: 0 auto; }
+
+#headerStyling {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background: #181A1F;
+  margin: 0; }
+  #headerStyling ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    #headerStyling ul li {
+      display: inline; }
+
+#logoImg {
+  min-height: 100px;
+  background: url("../../../res/img/t-logo.svg") center;
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
+
+.dropdown-menu, .navbar-default, .navbar-nav {
+  background-color: #181A1F; }
+
+.dropdown-menu li a {
+  color: #D63700;
+  text-align: right; }
