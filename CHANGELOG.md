@@ -2,8 +2,8 @@
 All notable changes to this project will be documented in this file.
 
 ### LEGEND
-**_Added_** - file/features added to the current release.
-**_Updated_** - existing working features updated.
+**_Added_** - file/features added to the current release. </br>
+**_Updated_** - existing working features updated. </br>
 **_Fixed_** - fixed broken or incorrectly working features.
 **_Removed_** - file/features removed from the current release.
 **_In Development_** - file/feature added to the current release for testing and/or further development (usually unaccesibly by the public).
@@ -15,7 +15,7 @@ All notable changes to this project will be documented in this file.
 	- blog header
 
 ### Updated
-- Footer and Header now use [Bootstrap 3.3.0] and [jQuery 1.11.1] from the internet instead of localy
+- Footer and Header now use [Bootstrap 3.3.0]() and [jQuery 1.11.1]() from the internet instead of localy
 
 ## [0.0.1] - 2016/06/12
 ### Added
