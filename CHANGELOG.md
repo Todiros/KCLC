@@ -6,8 +6,9 @@ All notable changes to this project will be documented in this file.
 **_Updated_** - existing working features updated. </br>
 **_Fixed_** - fixed broken or incorrectly working features. </br>
 **_Removed_** - file/features removed from the current release. </br>
-**_In Development_** - file/feature added to the current release for testing and/or further development (usually unaccesibly by the public). </br>
+**_In Development_** - file/feature added for testing and/or further development (usually unaccesibly by the public). </br>
 **_Released_** - complete file/feature in the current release is now available to the public and no longer **_In Development_**. </br>
+
 ---
 
 ## [0.1.1] - 2016/06/17
